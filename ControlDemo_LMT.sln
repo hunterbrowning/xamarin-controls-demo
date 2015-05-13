@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlDemo_LMT", "ControlDemo_LMT\ControlDemo_LMT.csproj", "{CF1B0B23-EECA-4601-B723-B060CD5E6DA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+		AdHoc|iPhone = AdHoc|iPhone
+		AdHoc|iPhoneSimulator = AdHoc|iPhoneSimulator
+		AppStore|iPhoneSimulator = AppStore|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF1B0B23-EECA-4601-B723-B060CD5E6DA3}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{CF1B0B23-EECA-4601-B723-B060CD5E6DA3}.AdHoc|iPhone.ActiveCfg = Debug|iPhone
+		{CF1B0B23-EECA-4601-B723-B060CD5E6DA3}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{CF1B0B23-EECA-4601-B723-B060CD5E6DA3}.AdHoc|iPhone.Build.0 = Debug|iPhone
+		{CF1B0B23-EECA-4601-B723-B060CD5E6DA3}.AdHoc|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{CF1B0B23-EECA-4601-B723-B060CD5E6DA3}.AdHoc|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{CF1B0B23-EECA-4601-B723-B060CD5E6DA3}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{CF1B0B23-EECA-4601-B723-B060CD5E6DA3}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{CF1B0B23-EECA-4601-B723-B060CD5E6DA3}.AppStore|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{CF1B0B23-EECA-4601-B723-B060CD5E6DA3}.AppStore|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{CF1B0B23-EECA-4601-B723-B060CD5E6DA3}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{CF1B0B23-EECA-4601-B723-B060CD5E6DA3}.Debug|iPhone.Build.0 = Debug|iPhone
+		{CF1B0B23-EECA-4601-B723-B060CD5E6DA3}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{CF1B0B23-EECA-4601-B723-B060CD5E6DA3}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{CF1B0B23-EECA-4601-B723-B060CD5E6DA3}.Release|iPhone.ActiveCfg = Release|iPhone
+		{CF1B0B23-EECA-4601-B723-B060CD5E6DA3}.Release|iPhone.Build.0 = Release|iPhone
+		{CF1B0B23-EECA-4601-B723-B060CD5E6DA3}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{CF1B0B23-EECA-4601-B723-B060CD5E6DA3}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = ControlDemo_LMT\ControlDemo_LMT.csproj
+	EndGlobalSection
+EndGlobal

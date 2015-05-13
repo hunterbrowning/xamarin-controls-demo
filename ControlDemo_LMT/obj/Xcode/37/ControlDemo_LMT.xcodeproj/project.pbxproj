@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86D6A5700000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE76F500000000000000000 /* UIKit.framework */; };
+		2A030D8A0000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D941A280000000000000000 /* MapKit.framework */; };
+		3F3676220000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C782C000000000000000000 /* Foundation.framework */; };
+		32A1586B0000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363265090000000000000000 /* CoreGraphics.framework */; };
+		33C981EF0000000000000000 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 375A8E8D0000000000000000 /* Default-568h@2x.png */; };
+		8FCEA8700000000000000000 /* PDF.png in Resources */ = {isa = PBXBuildFile; fileRef = C8DF72500000000000000000 /* PDF.png */; };
+		3727AB710000000000000000 /* activity_indicator_view.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3AB8B80F0000000000000000 /* activity_indicator_view.pdf */; };
+		25526C5B0000000000000000 /* NavConExOne.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 28E378F90000000000000000 /* NavConExOne.pdf */; };
+		1A7EE2F00000000000000000 /* PagingController.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 538FACD00000000000000000 /* PagingController.pdf */; };
+		897244F00000000000000000 /* ProgressView.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C2830ED00000000000000000 /* ProgressView.pdf */; };
+		36C1E5390000000000000000 /* TheSegmentedControl.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3A52F1D70000000000000000 /* TheSegmentedControl.pdf */; };
+		24ECA6230000000000000000 /* TheSliderControl.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 287DB2C10000000000000000 /* TheSliderControl.pdf */; };
+		1317670D0000000000000000 /* TheSwitchControl.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 16A873AB0000000000000000 /* TheSwitchControl.pdf */; };
+		1D97A9CB0000000000000000 /* ViewControllerOne.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2128B6690000000000000000 /* ViewControllerOne.pdf */; };
+		BC26AB500000000000000000 /* WebBrowser.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F53775300000000000000000 /* WebBrowser.pdf */; };
+		39ED2B9F0000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D7E383D0000000000000000 /* Info.plist */; };
+		7FE7AFB00000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8F879900000000000000000 /* Entitlements.plist */; };
+		160FCA570000000000000000 /* TheSegmentedControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19A0D6F50000000000000000 /* TheSegmentedControl.xib */; };
+		1EE0F8540000000000000000 /* ViewControllerOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = 227204F20000000000000000 /* ViewControllerOne.xib */; };
+		D0BB93E00000000000000000 /* ViewControllerTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 109CC5DC0000000000000000 /* ViewControllerTwo.xib */; };
+		3B367A280000000000000000 /* TheSliderControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EC786C60000000000000000 /* TheSliderControl.xib */; };
+		292E57F60000000000000000 /* TheSwitchControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CBF64940000000000000000 /* TheSwitchControl.xib */; };
+		175918E00000000000000000 /* PagingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AEA257E0000000000000000 /* PagingController.xib */; };
+		583D9CA00000000000000000 /* ActivityIndicatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 914E66800000000000000000 /* ActivityIndicatorView.xib */; };
+		33AE9AB40000000000000000 /* ProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 373FA7520000000000000000 /* ProgressView.xib */; };
+		21D95B9E0000000000000000 /* WebBrowser.xib in Resources */ = {isa = PBXBuildFile; fileRef = 256A683C0000000000000000 /* WebBrowser.xib */; };
+		10041C880000000000000000 /* NavConExOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = 139529260000000000000000 /* NavConExOne.xib */; };
+		3E2EDD720000000000000000 /* NavConExTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BFEA1000000000000000000 /* NavConExTwo.xib */; };
+		2C599E5C0000000000000000 /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FEAAAFA0000000000000000 /* AboutView.xib */; };
+		1A845F460000000000000000 /* PDFCodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E156BE40000000000000000 /* PDFCodeView.xib */; };
+		3888F5DB0000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 3C1A02790000000000000000 /* AppDelegate.h */; };
+		2DA2ECE50000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3133F9830000000000000000 /* AppDelegate.m */; };
+		2B8E11EC0000000000000000 /* TheSegmentedControl.h in Sources */ = {isa = PBXBuildFile; fileRef = 2F1F1E8A0000000000000000 /* TheSegmentedControl.h */; };
+		25E82A550000000000000000 /* TheSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 297936F30000000000000000 /* TheSegmentedControl.m */; };
+		27973F160000000000000000 /* ViewControllerOne.h in Sources */ = {isa = PBXBuildFile; fileRef = 2B284BB40000000000000000 /* ViewControllerOne.h */; };
+		13E008230000000000000000 /* ViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 177114C10000000000000000 /* ViewControllerOne.m */; };
+		158F1CE40000000000000000 /* ViewControllerTwo.h in Sources */ = {isa = PBXBuildFile; fileRef = 192029820000000000000000 /* ViewControllerTwo.h */; };
+		C8B0BCB00000000000000000 /* ViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 101C18690000000000000000 /* ViewControllerTwo.m */; };
+		E3A208C00000000000000000 /* TheSliderControl.h in Sources */ = {isa = PBXBuildFile; fileRef = 11CB2D2A0000000000000000 /* TheSliderControl.h */; };
+		3360D05D0000000000000000 /* TheSliderControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F1DCFB0000000000000000 /* TheSliderControl.m */; };
+		2A5CBF440000000000000000 /* TheSwitchControl.h in Sources */ = {isa = PBXBuildFile; fileRef = 2DEDCBE20000000000000000 /* TheSwitchControl.h */; };
+		34AA1EE60000000000000000 /* TheSwitchControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 383B2B840000000000000000 /* TheSwitchControl.m */; };
+		365933A70000000000000000 /* PagingController.h in Sources */ = {isa = PBXBuildFile; fileRef = 39EA40450000000000000000 /* PagingController.h */; };
+		2D55228E0000000000000000 /* PagingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E62F2C0000000000000000 /* PagingController.m */; };
+		D3BB10000000000000000000 /* ActivityIndicatorView.h in Sources */ = {isa = PBXBuildFile; fileRef = 10CCBD9E0000000000000000 /* ActivityIndicatorView.h */; };
+		226F19980000000000000000 /* ActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 260026360000000000000000 /* ActivityIndicatorView.m */; };
+		5E6B4A800000000000000000 /* ProgressView.h in Sources */ = {isa = PBXBuildFile; fileRef = 977C14600000000000000000 /* ProgressView.h */; };
+		3E91B8500000000000000000 /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 222C4EE00000000000000000 /* ProgressView.m */; };
+		31FC9A990000000000000000 /* WebBrowser.h in Sources */ = {isa = PBXBuildFile; fileRef = 358DA7370000000000000000 /* WebBrowser.h */; };
+		2C89961E0000000000000000 /* WebBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 301AA2BC0000000000000000 /* WebBrowser.m */; };
+		31C9B77D0000000000000000 /* NavConExOne.h in Sources */ = {isa = PBXBuildFile; fileRef = 355AC41B0000000000000000 /* NavConExOne.h */; };
+		2C56B3020000000000000000 /* NavConExOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE7BFA00000000000000000 /* NavConExOne.m */; };
+		3196D4610000000000000000 /* NavConExTwo.h in Sources */ = {isa = PBXBuildFile; fileRef = 3527E0FF0000000000000000 /* NavConExTwo.h */; };
+		2C23CFE60000000000000000 /* NavConExTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB4DC840000000000000000 /* NavConExTwo.m */; };
+		3163F1450000000000000000 /* AboutView.h in Sources */ = {isa = PBXBuildFile; fileRef = 34F4FDE30000000000000000 /* AboutView.h */; };
+		2BF0ECCA0000000000000000 /* AboutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F81F9680000000000000000 /* AboutView.m */; };
+		31310E290000000000000000 /* PDFCodeView.h in Sources */ = {isa = PBXBuildFile; fileRef = 34C21AC70000000000000000 /* PDFCodeView.h */; };
+		2BBE09AE0000000000000000 /* PDFCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4F164C0000000000000000 /* PDFCodeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A441F1A0000000000000000 /* ControlDemo_LMT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "ControlDemo_LMT.app"; path = "ControlDemo_LMT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE76F500000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		2D941A280000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		2C782C000000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		363265090000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		375A8E8D0000000000000000 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C8DF72500000000000000000 /* PDF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PDF.png"; path = "PDF.png"; sourceTree = "<group>"; };
+		3AB8B80F0000000000000000 /* activity_indicator_view.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "activity_indicator_view.pdf"; path = "activity_indicator_view.pdf"; sourceTree = "<group>"; };
+		28E378F90000000000000000 /* NavConExOne.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "NavConExOne.pdf"; path = "NavConExOne.pdf"; sourceTree = "<group>"; };
+		538FACD00000000000000000 /* PagingController.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "PagingController.pdf"; path = "PagingController.pdf"; sourceTree = "<group>"; };
+		C2830ED00000000000000000 /* ProgressView.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "ProgressView.pdf"; path = "ProgressView.pdf"; sourceTree = "<group>"; };
+		3A52F1D70000000000000000 /* TheSegmentedControl.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "TheSegmentedControl.pdf"; path = "TheSegmentedControl.pdf"; sourceTree = "<group>"; };
+		287DB2C10000000000000000 /* TheSliderControl.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "TheSliderControl.pdf"; path = "TheSliderControl.pdf"; sourceTree = "<group>"; };
+		16A873AB0000000000000000 /* TheSwitchControl.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "TheSwitchControl.pdf"; path = "TheSwitchControl.pdf"; sourceTree = "<group>"; };
+		2128B6690000000000000000 /* ViewControllerOne.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "ViewControllerOne.pdf"; path = "ViewControllerOne.pdf"; sourceTree = "<group>"; };
+		F53775300000000000000000 /* WebBrowser.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "WebBrowser.pdf"; path = "WebBrowser.pdf"; sourceTree = "<group>"; };
+		3D7E383D0000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		B8F879900000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		19A0D6F50000000000000000 /* TheSegmentedControl.xib */ = {isa = PBXFileReference; name = "TheSegmentedControl.xib"; path = "TheSegmentedControl.xib"; sourceTree = "<group>"; };
+		227204F20000000000000000 /* ViewControllerOne.xib */ = {isa = PBXFileReference; name = "ViewControllerOne.xib"; path = "ViewControllerOne.xib"; sourceTree = "<group>"; };
+		109CC5DC0000000000000000 /* ViewControllerTwo.xib */ = {isa = PBXFileReference; name = "ViewControllerTwo.xib"; path = "ViewControllerTwo.xib"; sourceTree = "<group>"; };
+		3EC786C60000000000000000 /* TheSliderControl.xib */ = {isa = PBXFileReference; name = "TheSliderControl.xib"; path = "TheSliderControl.xib"; sourceTree = "<group>"; };
+		2CBF64940000000000000000 /* TheSwitchControl.xib */ = {isa = PBXFileReference; name = "TheSwitchControl.xib"; path = "TheSwitchControl.xib"; sourceTree = "<group>"; };
+		1AEA257E0000000000000000 /* PagingController.xib */ = {isa = PBXFileReference; name = "PagingController.xib"; path = "PagingController.xib"; sourceTree = "<group>"; };
+		914E66800000000000000000 /* ActivityIndicatorView.xib */ = {isa = PBXFileReference; name = "ActivityIndicatorView.xib"; path = "ActivityIndicatorView.xib"; sourceTree = "<group>"; };
+		373FA7520000000000000000 /* ProgressView.xib */ = {isa = PBXFileReference; name = "ProgressView.xib"; path = "ProgressView.xib"; sourceTree = "<group>"; };
+		256A683C0000000000000000 /* WebBrowser.xib */ = {isa = PBXFileReference; name = "WebBrowser.xib"; path = "WebBrowser.xib"; sourceTree = "<group>"; };
+		139529260000000000000000 /* NavConExOne.xib */ = {isa = PBXFileReference; name = "NavConExOne.xib"; path = "NavConExOne.xib"; sourceTree = "<group>"; };
+		1BFEA1000000000000000000 /* NavConExTwo.xib */ = {isa = PBXFileReference; name = "NavConExTwo.xib"; path = "NavConExTwo.xib"; sourceTree = "<group>"; };
+		2FEAAAFA0000000000000000 /* AboutView.xib */ = {isa = PBXFileReference; name = "AboutView.xib"; path = "AboutView.xib"; sourceTree = "<group>"; };
+		1E156BE40000000000000000 /* PDFCodeView.xib */ = {isa = PBXFileReference; name = "PDFCodeView.xib"; path = "PDFCodeView.xib"; sourceTree = "<group>"; };
+		3C1A02790000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		3133F9830000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		2F1F1E8A0000000000000000 /* TheSegmentedControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TheSegmentedControl.h"; path = "TheSegmentedControl.h"; sourceTree = "<group>"; };
+		297936F30000000000000000 /* TheSegmentedControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "TheSegmentedControl.m"; path = "TheSegmentedControl.m"; sourceTree = "<group>"; };
+		2B284BB40000000000000000 /* ViewControllerOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ViewControllerOne.h"; path = "ViewControllerOne.h"; sourceTree = "<group>"; };
+		177114C10000000000000000 /* ViewControllerOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ViewControllerOne.m"; path = "ViewControllerOne.m"; sourceTree = "<group>"; };
+		192029820000000000000000 /* ViewControllerTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ViewControllerTwo.h"; path = "ViewControllerTwo.h"; sourceTree = "<group>"; };
+		101C18690000000000000000 /* ViewControllerTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ViewControllerTwo.m"; path = "ViewControllerTwo.m"; sourceTree = "<group>"; };
+		11CB2D2A0000000000000000 /* TheSliderControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TheSliderControl.h"; path = "TheSliderControl.h"; sourceTree = "<group>"; };
+		36F1DCFB0000000000000000 /* TheSliderControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "TheSliderControl.m"; path = "TheSliderControl.m"; sourceTree = "<group>"; };
+		2DEDCBE20000000000000000 /* TheSwitchControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TheSwitchControl.h"; path = "TheSwitchControl.h"; sourceTree = "<group>"; };
+		383B2B840000000000000000 /* TheSwitchControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "TheSwitchControl.m"; path = "TheSwitchControl.m"; sourceTree = "<group>"; };
+		39EA40450000000000000000 /* PagingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PagingController.h"; path = "PagingController.h"; sourceTree = "<group>"; };
+		30E62F2C0000000000000000 /* PagingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "PagingController.m"; path = "PagingController.m"; sourceTree = "<group>"; };
+		10CCBD9E0000000000000000 /* ActivityIndicatorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ActivityIndicatorView.h"; path = "ActivityIndicatorView.h"; sourceTree = "<group>"; };
+		260026360000000000000000 /* ActivityIndicatorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ActivityIndicatorView.m"; path = "ActivityIndicatorView.m"; sourceTree = "<group>"; };
+		977C14600000000000000000 /* ProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ProgressView.h"; path = "ProgressView.h"; sourceTree = "<group>"; };
+		222C4EE00000000000000000 /* ProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ProgressView.m"; path = "ProgressView.m"; sourceTree = "<group>"; };
+		358DA7370000000000000000 /* WebBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WebBrowser.h"; path = "WebBrowser.h"; sourceTree = "<group>"; };
+		301AA2BC0000000000000000 /* WebBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "WebBrowser.m"; path = "WebBrowser.m"; sourceTree = "<group>"; };
+		355AC41B0000000000000000 /* NavConExOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NavConExOne.h"; path = "NavConExOne.h"; sourceTree = "<group>"; };
+		2FE7BFA00000000000000000 /* NavConExOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NavConExOne.m"; path = "NavConExOne.m"; sourceTree = "<group>"; };
+		3527E0FF0000000000000000 /* NavConExTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NavConExTwo.h"; path = "NavConExTwo.h"; sourceTree = "<group>"; };
+		2FB4DC840000000000000000 /* NavConExTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NavConExTwo.m"; path = "NavConExTwo.m"; sourceTree = "<group>"; };
+		34F4FDE30000000000000000 /* AboutView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AboutView.h"; path = "AboutView.h"; sourceTree = "<group>"; };
+		2F81F9680000000000000000 /* AboutView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AboutView.m"; path = "AboutView.m"; sourceTree = "<group>"; };
+		34C21AC70000000000000000 /* PDFCodeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PDFCodeView.h"; path = "PDFCodeView.h"; sourceTree = "<group>"; };
+		2F4F164C0000000000000000 /* PDFCodeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "PDFCodeView.m"; path = "PDFCodeView.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38C7ED750000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D6A5700000000000000000 /* UIKit.framework in Frameworks */,
+				2A030D8A0000000000000000 /* MapKit.framework in Frameworks */,
+				3F3676220000000000000000 /* Foundation.framework in Frameworks */,
+				32A1586B0000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E15F030000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				37B134F00000000000000000 /* ControlDemo_LMT */,
+				2725917B0000000000000000 /* Frameworks */,
+				E2E392900000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2E392900000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A441F1A0000000000000000 /* ControlDemo_LMT.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		2725917B0000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFE76F500000000000000000 /* UIKit.framework */,
+				2D941A280000000000000000 /* MapKit.framework */,
+				2C782C000000000000000000 /* Foundation.framework */,
+				363265090000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		37B134F00000000000000000 /* ControlDemo_LMT */ = {
+			isa = PBXGroup;
+			children = (
+				34F4FDE30000000000000000 /* AboutView.h */,
+				2FEAAAFA0000000000000000 /* AboutView.xib */,
+				3AB8B80F0000000000000000 /* activity_indicator_view.pdf */,
+				10CCBD9E0000000000000000 /* ActivityIndicatorView.h */,
+				914E66800000000000000000 /* ActivityIndicatorView.xib */,
+				3C1A02790000000000000000 /* AppDelegate.h */,
+				375A8E8D0000000000000000 /* Default-568h@2x.png */,
+				B8F879900000000000000000 /* Entitlements.plist */,
+				3D7E383D0000000000000000 /* Info.plist */,
+				355AC41B0000000000000000 /* NavConExOne.h */,
+				28E378F90000000000000000 /* NavConExOne.pdf */,
+				139529260000000000000000 /* NavConExOne.xib */,
+				3527E0FF0000000000000000 /* NavConExTwo.h */,
+				1BFEA1000000000000000000 /* NavConExTwo.xib */,
+				39EA40450000000000000000 /* PagingController.h */,
+				538FACD00000000000000000 /* PagingController.pdf */,
+				1AEA257E0000000000000000 /* PagingController.xib */,
+				C8DF72500000000000000000 /* PDF.png */,
+				34C21AC70000000000000000 /* PDFCodeView.h */,
+				1E156BE40000000000000000 /* PDFCodeView.xib */,
+				977C14600000000000000000 /* ProgressView.h */,
+				C2830ED00000000000000000 /* ProgressView.pdf */,
+				373FA7520000000000000000 /* ProgressView.xib */,
+				2F1F1E8A0000000000000000 /* TheSegmentedControl.h */,
+				3A52F1D70000000000000000 /* TheSegmentedControl.pdf */,
+				19A0D6F50000000000000000 /* TheSegmentedControl.xib */,
+				11CB2D2A0000000000000000 /* TheSliderControl.h */,
+				287DB2C10000000000000000 /* TheSliderControl.pdf */,
+				3EC786C60000000000000000 /* TheSliderControl.xib */,
+				2DEDCBE20000000000000000 /* TheSwitchControl.h */,
+				16A873AB0000000000000000 /* TheSwitchControl.pdf */,
+				2CBF64940000000000000000 /* TheSwitchControl.xib */,
+				2B284BB40000000000000000 /* ViewControllerOne.h */,
+				2128B6690000000000000000 /* ViewControllerOne.pdf */,
+				227204F20000000000000000 /* ViewControllerOne.xib */,
+				192029820000000000000000 /* ViewControllerTwo.h */,
+				109CC5DC0000000000000000 /* ViewControllerTwo.xib */,
+				358DA7370000000000000000 /* WebBrowser.h */,
+				F53775300000000000000000 /* WebBrowser.pdf */,
+				256A683C0000000000000000 /* WebBrowser.xib */,
+				2F84E4C20000000000000000 /* Supporting Files */,
+			);
+			name = "ControlDemo_LMT";
+			sourceTree = "<group>";
+		};
+		2F84E4C20000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F81F9680000000000000000 /* AboutView.m */,
+				260026360000000000000000 /* ActivityIndicatorView.m */,
+				3133F9830000000000000000 /* AppDelegate.m */,
+				2FE7BFA00000000000000000 /* NavConExOne.m */,
+				2FB4DC840000000000000000 /* NavConExTwo.m */,
+				30E62F2C0000000000000000 /* PagingController.m */,
+				2F4F164C0000000000000000 /* PDFCodeView.m */,
+				222C4EE00000000000000000 /* ProgressView.m */,
+				297936F30000000000000000 /* TheSegmentedControl.m */,
+				36F1DCFB0000000000000000 /* TheSliderControl.m */,
+				383B2B840000000000000000 /* TheSwitchControl.m */,
+				177114C10000000000000000 /* ViewControllerOne.m */,
+				101C18690000000000000000 /* ViewControllerTwo.m */,
+				301AA2BC0000000000000000 /* WebBrowser.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EF84FEC0000000000000000 /* ControlDemo_LMT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F90F9400000000000000000 /* Build configuration list for PBXNativeTarget "ControlDemo_LMT" */;
+			buildPhases = (
+				2361A1C10000000000000000 /* Sources */,
+				38C7ED750000000000000000 /* Frameworks */,
+				C4C414C00000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ControlDemo_LMT";
+			productName = "ControlDemo_LMT";
+			productReference = 3A441F1A0000000000000000 /* ControlDemo_LMT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24452A120000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 214CC6C80000000000000000 /* Build configuration list for PBXProject "ControlDemo_LMT" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18E15F030000000000000000;
+			productRefGroup = E2E392900000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EF84FEC0000000000000000 /* ControlDemo_LMT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4C414C00000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C981EF0000000000000000 /* Default-568h@2x.png in Resources */,
+				8FCEA8700000000000000000 /* PDF.png in Resources */,
+				3727AB710000000000000000 /* activity_indicator_view.pdf in Resources */,
+				25526C5B0000000000000000 /* NavConExOne.pdf in Resources */,
+				1A7EE2F00000000000000000 /* PagingController.pdf in Resources */,
+				897244F00000000000000000 /* ProgressView.pdf in Resources */,
+				36C1E5390000000000000000 /* TheSegmentedControl.pdf in Resources */,
+				24ECA6230000000000000000 /* TheSliderControl.pdf in Resources */,
+				1317670D0000000000000000 /* TheSwitchControl.pdf in Resources */,
+				1D97A9CB0000000000000000 /* ViewControllerOne.pdf in Resources */,
+				BC26AB500000000000000000 /* WebBrowser.pdf in Resources */,
+				39ED2B9F0000000000000000 /* Info.plist in Resources */,
+				7FE7AFB00000000000000000 /* Entitlements.plist in Resources */,
+				160FCA570000000000000000 /* TheSegmentedControl.xib in Resources */,
+				1EE0F8540000000000000000 /* ViewControllerOne.xib in Resources */,
+				D0BB93E00000000000000000 /* ViewControllerTwo.xib in Resources */,
+				3B367A280000000000000000 /* TheSliderControl.xib in Resources */,
+				292E57F60000000000000000 /* TheSwitchControl.xib in Resources */,
+				175918E00000000000000000 /* PagingController.xib in Resources */,
+				583D9CA00000000000000000 /* ActivityIndicatorView.xib in Resources */,
+				33AE9AB40000000000000000 /* ProgressView.xib in Resources */,
+				21D95B9E0000000000000000 /* WebBrowser.xib in Resources */,
+				10041C880000000000000000 /* NavConExOne.xib in Resources */,
+				3E2EDD720000000000000000 /* NavConExTwo.xib in Resources */,
+				2C599E5C0000000000000000 /* AboutView.xib in Resources */,
+				1A845F460000000000000000 /* PDFCodeView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2361A1C10000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3888F5DB0000000000000000 /* AppDelegate.h in Sources */,
+				2DA2ECE50000000000000000 /* AppDelegate.m in Sources */,
+				2B8E11EC0000000000000000 /* TheSegmentedControl.h in Sources */,
+				25E82A550000000000000000 /* TheSegmentedControl.m in Sources */,
+				27973F160000000000000000 /* ViewControllerOne.h in Sources */,
+				13E008230000000000000000 /* ViewControllerOne.m in Sources */,
+				158F1CE40000000000000000 /* ViewControllerTwo.h in Sources */,
+				C8B0BCB00000000000000000 /* ViewControllerTwo.m in Sources */,
+				E3A208C00000000000000000 /* TheSliderControl.h in Sources */,
+				3360D05D0000000000000000 /* TheSliderControl.m in Sources */,
+				2A5CBF440000000000000000 /* TheSwitchControl.h in Sources */,
+				34AA1EE60000000000000000 /* TheSwitchControl.m in Sources */,
+				365933A70000000000000000 /* PagingController.h in Sources */,
+				2D55228E0000000000000000 /* PagingController.m in Sources */,
+				D3BB10000000000000000000 /* ActivityIndicatorView.h in Sources */,
+				226F19980000000000000000 /* ActivityIndicatorView.m in Sources */,
+				5E6B4A800000000000000000 /* ProgressView.h in Sources */,
+				3E91B8500000000000000000 /* ProgressView.m in Sources */,
+				31FC9A990000000000000000 /* WebBrowser.h in Sources */,
+				2C89961E0000000000000000 /* WebBrowser.m in Sources */,
+				31C9B77D0000000000000000 /* NavConExOne.h in Sources */,
+				2C56B3020000000000000000 /* NavConExOne.m in Sources */,
+				3196D4610000000000000000 /* NavConExTwo.h in Sources */,
+				2C23CFE60000000000000000 /* NavConExTwo.m in Sources */,
+				3163F1450000000000000000 /* AboutView.h in Sources */,
+				2BF0ECCA0000000000000000 /* AboutView.m in Sources */,
+				31310E290000000000000000 /* PDFCodeView.h in Sources */,
+				2BBE09AE0000000000000000 /* PDFCodeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22C8F86D0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		1699A0EE0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "ControlDemo_LMT";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		214CC6C80000000000000000 /* Build configuration list for PBXProject "ControlDemo_LMT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C8F86D0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		2F90F9400000000000000000 /* Build configuration list for PBXNativeTarget "ControlDemo_LMT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1699A0EE0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24452A120000000000000000 /* Project object */;
+}

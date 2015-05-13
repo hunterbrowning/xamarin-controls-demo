@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CF1B0B23-EECA-4601-B723-B060CD5E6DA3}</ProjectGuid>
+    <ProjectTypeGuids>{6BC8ED88-2882-458C-8E55-DFD12B67127B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ControlDemo_LMT</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>ControlDemo_LMT</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;__MOBILE__;__IOS__;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchLink>None</MtouchLink>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchDebug>true</MtouchDebug>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <DefineConstants>__MOBILE__;__IOS__;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchLink>None</MtouchLink>
+    <ConsolePause>false</ConsolePause>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;__MOBILE__;__IOS__;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchDebug>true</MtouchDebug>
+    <CodesignKey>iPhone Developer</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <DefineConstants>__MOBILE__;__IOS__;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Ad-Hoc</OutputPath>
+    <DefineConstants>__MOBILE__;__IOS__;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <BuildIpa>true</BuildIpa>
+    <CodesignProvision>Automatic:AdHoc</CodesignProvision>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\AppStore</OutputPath>
+    <DefineConstants>__MOBILE__;__IOS__;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <CodesignProvision>Automatic:AppStore</CodesignProvision>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="monotouch" />
+    <Reference Include="MonoTouch.Dialog-1" />
+    <Reference Include="MonoTouch.Slideout">
+      <HintPath>..\..\..\ws\Xamarin Downloads\MonoTouch.SlideoutNavigation-master\MonoTouch.SlideoutNavigation\bin\Debug\MonoTouch.Slideout.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Default-568h%402x.png" />
+    <BundleResource Include="Resources\PDF.png" />
+    <BundleResource Include="Resources\activity_indicator_view.pdf" />
+    <BundleResource Include="Resources\NavConExOne.pdf" />
+    <BundleResource Include="Resources\PagingController.pdf" />
+    <BundleResource Include="Resources\ProgressView.pdf" />
+    <BundleResource Include="Resources\TheSegmentedControl.pdf" />
+    <BundleResource Include="Resources\TheSliderControl.pdf" />
+    <BundleResource Include="Resources\TheSwitchControl.pdf" />
+    <BundleResource Include="Resources\ViewControllerOne.pdf" />
+    <BundleResource Include="Resources\WebBrowser.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="TheSegmentedControl.cs" />
+    <Compile Include="TheSegmentedControl.designer.cs">
+      <DependentUpon>TheSegmentedControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewControllerOne.cs" />
+    <Compile Include="ViewControllerOne.designer.cs">
+      <DependentUpon>ViewControllerOne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewControllerTwo.cs" />
+    <Compile Include="ViewControllerTwo.designer.cs">
+      <DependentUpon>ViewControllerTwo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TheSliderControl.cs" />
+    <Compile Include="TheSliderControl.designer.cs">
+      <DependentUpon>TheSliderControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TheSwitchControl.cs" />
+    <Compile Include="TheSwitchControl.designer.cs">
+      <DependentUpon>TheSwitchControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PagingController.cs" />
+    <Compile Include="PagingController.designer.cs">
+      <DependentUpon>PagingController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActivityIndicatorView.cs" />
+    <Compile Include="ActivityIndicatorView.designer.cs">
+      <DependentUpon>ActivityIndicatorView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgressView.cs" />
+    <Compile Include="ProgressView.designer.cs">
+      <DependentUpon>ProgressView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebBrowser.cs" />
+    <Compile Include="WebBrowser.designer.cs">
+      <DependentUpon>WebBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavConExOne.cs" />
+    <Compile Include="NavConExOne.designer.cs">
+      <DependentUpon>NavConExOne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavConExTwo.cs" />
+    <Compile Include="NavConExTwo.designer.cs">
+      <DependentUpon>NavConExTwo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AboutView.cs" />
+    <Compile Include="AboutView.designer.cs">
+      <DependentUpon>AboutView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PDFCodeView.cs" />
+    <Compile Include="PDFCodeView.designer.cs">
+      <DependentUpon>PDFCodeView.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="ViewControllers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="TheSegmentedControl.xib">
+      <DependentUpon>TheSegmentedControl.cs</DependentUpon>
+    </InterfaceDefinition>
+    <InterfaceDefinition Include="ViewControllerOne.xib">
+      <DependentUpon>ViewControllerOne.cs</DependentUpon>
+    </InterfaceDefinition>
+    <InterfaceDefinition Include="ViewControllerTwo.xib">
+      <DependentUpon>ViewControllerTwo.cs</DependentUpon>
+    </InterfaceDefinition>
+    <InterfaceDefinition Include="TheSliderControl.xib">
+      <DependentUpon>TheSliderControl.cs</DependentUpon>
+    </InterfaceDefinition>
+    <InterfaceDefinition Include="TheSwitchControl.xib">
+      <DependentUpon>TheSwitchControl.cs</DependentUpon>
+    </InterfaceDefinition>
+    <InterfaceDefinition Include="PagingController.xib">
+      <DependentUpon>PagingController.cs</DependentUpon>
+    </InterfaceDefinition>
+    <InterfaceDefinition Include="ActivityIndicatorView.xib">
+      <DependentUpon>ActivityIndicatorView.cs</DependentUpon>
+    </InterfaceDefinition>
+    <InterfaceDefinition Include="ProgressView.xib">
+      <DependentUpon>ProgressView.cs</DependentUpon>
+    </InterfaceDefinition>
+    <InterfaceDefinition Include="WebBrowser.xib">
+      <DependentUpon>WebBrowser.cs</DependentUpon>
+    </InterfaceDefinition>
+    <InterfaceDefinition Include="NavConExOne.xib">
+      <DependentUpon>NavConExOne.cs</DependentUpon>
+    </InterfaceDefinition>
+    <InterfaceDefinition Include="NavConExTwo.xib">
+      <DependentUpon>NavConExTwo.cs</DependentUpon>
+    </InterfaceDefinition>
+    <InterfaceDefinition Include="AboutView.xib">
+      <DependentUpon>AboutView.cs</DependentUpon>
+    </InterfaceDefinition>
+    <InterfaceDefinition Include="PDFCodeView.xib">
+      <DependentUpon>PDFCodeView.cs</DependentUpon>
+    </InterfaceDefinition>
+  </ItemGroup>
+</Project>

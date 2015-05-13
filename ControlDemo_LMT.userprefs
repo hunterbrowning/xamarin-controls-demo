@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.Hunter's iPhone 5C" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ControlDemo_LMT/ProgressView.cs">
+    <Files>
+      <File FileName="ControlDemo_LMT/ProgressView.cs" Line="46" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ControlDemo__LMT>
+    <MonoDevelop.MacDev.AppleDevelopmentTeam DeveloperId="SAFNEFQZKU" TeamId="P7587FA8XX" />
+  </MonoDevelop.Ide.ItemProperties.ControlDemo__LMT>
+</Properties>

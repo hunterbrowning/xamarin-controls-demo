@@ -1,0 +1,40 @@
+using System;
+using System.Drawing;
+using MonoTouch.Foundation;
+using MonoTouch.UIKit;
+
+namespace ControlDemo_LMT
+{
+	public partial class TheSliderControl : UIViewController
+	{
+		PDFCodeView _pdfView;
+		string _pdfFile = "TheSliderControl.pdf";
+
+		public TheSliderControl () : base ("TheSliderControl", null)
+		{
+		}
+
+		public override void DidReceiveMemoryWarning ()
+		{
+			// Releases the view if it doesn't have a superview.
+			base.DidReceiveMemoryWarning ();
+			
+			// Release any cached data, images, etc that aren't in use.
+		}
+
+		public override void ViewDidLoad ()
+		{
+			base.ViewDidLoad ();
+			theSlider.ValueChanged += delegate {
+				slidLbl.Text = theSlider.Value.ToString();
+
+			};
+
+			pdfBtn.TouchUpInside += delegate {
+				_pdfView = new PDFCodeView(_pdfFile);
+				this.PresentViewController(_pdfView, true, null);
+			};
+		}
+	}
+}
+
